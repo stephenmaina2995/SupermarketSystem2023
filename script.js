@@ -126,6 +126,8 @@ fetch("http://localhost:3000/products")
 
 var cart = [];
 //The first comment
+//The second comment
+//The third comment
 function addtocart(a) {
   cart.push({ ...product[a] });
   displaycart();
